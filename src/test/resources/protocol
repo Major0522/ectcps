@@ -1,0 +1,16 @@
+4 角色类型
+4 业务类型
+8 目标地址
+1 头字节
+4 内容长度
+内容...SessionFactory
+
+loginBuffer
+ChannelBuffer loginBuffer = NettyUtils.writeStrings(username, password,connectionKey);
+ChannelBuffer loginBuffer = ChannelBuffers.wrappedBuffer(credentials,NettyUtils.writeSocketAddress(localUDPAddress));
+
+1.1版本
+
+TCPPipelineFactory
+UDPPipelineFactory
+

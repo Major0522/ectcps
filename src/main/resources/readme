@@ -1,0 +1,4 @@
+150107
+1. 增加Websocket协议(配置为ProtocolType=66,WebSocketUri=ws://127.0.0.1:8000/websocketTomcat8/dispatch?name=21354).
+2. 优化掉线重连机制.
+3.
